@@ -34,9 +34,12 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
                     {% if user.is_authenticated %}
-                    <a class="nav-item nav-link" href="{% url 'create' %}"><span class="oi oi-plus"/> </a>
+                    <a class="nav-item nav-link" href="{% url 'create' %}"> Add <span class="oi oi-plus"/> </a>
+
+                    ><i>Hello, {{user.username}}</i></div>
                     <a class="nav-item nav-link" href="javascript:{document.getElementById('logout').submit()}"
-                       onclick="">Logout</a>
+                       onclick=""><b>Logout</b></a>
+
                     <form action="{% url 'logout' %}" id="logout" method="POST">
                         {% csrf_token %}
                         <input type="hidden"/>
@@ -69,6 +72,5 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
 </html>
 

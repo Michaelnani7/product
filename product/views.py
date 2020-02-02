@@ -61,7 +61,7 @@ def detail(request, product_id):  # every thing that was post in the create will
 @login_required(login_url="/accounts/signup")
 def upvote(request, product_id):
     if request.method == 'POST':
-         product = get_object_or_404(Product, pk=product_id)
-         product.votes_total+=1
-         product.save()
-         return redirect('/product/' + str(product.id))
+        product = get_object_or_404(Product, pk=product_id)
+        product.votes_total += 1
+        product.save()
+        return redirect('/product/' + str(product.id))
