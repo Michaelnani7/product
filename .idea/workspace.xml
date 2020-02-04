@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/producthunt/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="39" selection-end-column="8" />
+            <state relative-caret-position="200">
+              <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -234,7 +234,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13913691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -426,8 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/producthunt/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="39" selection-end-column="8" />
+        <state relative-caret-position="200">
+          <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
         </state>
       </provider>
     </entry>
