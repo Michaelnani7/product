@@ -5,6 +5,7 @@ from django.utils import timezone
 
 
 # Create your views here.
+
 def home(request):
     products = Product.objects
     return render(request, 'product/home.html', {'products': products})
@@ -52,7 +53,7 @@ def create(request):
         return render(request, 'product/create.html')
 
 
-@login_required
+@login_required(login_url="/accounts/signup")
 def detail(request, product_id):  # every thing that was post in the create will be displayed in the detail page
     product = get_object_or_404(Product, pk=product_id)
     return render(request, 'product/detail.html', {'product': product})
